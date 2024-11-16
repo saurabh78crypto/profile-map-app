@@ -10,32 +10,32 @@ The application comprises:
 
 ## Key Features
 
-1. Profile Display:
-    Displays a list of user profiles, including name, photograph, and essential details.
+1. **Profile Display:**
+    - Displays a list of user profiles, including name, photograph, and essential details.
 
-2. Interactive Mapping:
-    Dynamically renders a Google Maps component with markers for profile addresses.
+2. **Interactive Mapping:**
+    - Dynamically renders a Google Maps component with markers for profile addresses.
 
-3. Summary Button:
-Highlights the geographic location of a selected profile on the map.
+3. **Summary Button:**
+    - Highlights the geographic location of a selected profile on the map.
 
-4. Profile Management (Admin Panel):
-    Admins can add, edit, and delete profiles via a dedicated admin interface.
+4. **Profile Management (Admin Panel):**
+    - Admins can add, edit, and delete profiles via a dedicated admin interface.
 
-5. Search and Filter:
-    Allows searching and filtering profiles by name, location, or other attributes.
+5. **Search and Filter:**
+    - Allows searching and filtering profiles by name, location, or other attributes.
 
-6. Responsive Design:
-    Fully mobile-friendly for use on smartphones and tablets.
+6. **Responsive Design:**
+    - Fully mobile-friendly for use on smartphones and tablets.
 
-7. Error Handling:
-    Gracefully handles invalid inputs and map service errors.
+7. **Error Handling:**
+    - Gracefully handles invalid inputs and map service errors.
 
-8. Loading Indicators:
-    Displays progress bars or spinners during data fetching or rendering.
+8. **Loading Indicators:**
+    - Displays progress bars or spinners during data fetching or rendering.
 
-9. Detailed Profile Views:
-    Provides in-depth information about profiles when clicked.
+9. **Detailed Profile Views:**
+    - Provides in-depth information about profiles when clicked.
 
 ## Tech Stack
 
@@ -66,16 +66,16 @@ Highlights the geographic location of a selected profile on the map.
 ### Clone Repository
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/saurabh78crypto/profile-map-app.git
 cd profile-map-app
 ```
 
 ### Frontend Setup
 
-1. Navigate to the `frontend` directory:
+1. Navigate to the `profile-map-app` directory:
 
 ```bash
-cd 
+cd profile-map-app
 ```
 
 2. Install dependencies:
@@ -85,7 +85,7 @@ npm install
 ```
 
 3. Configure environment variables:
-    Create a `.env` file in the `frontend` directory
+    - Create a `.env` file in the `frontend` directory
 
 ```bash
 REACT_APP_GOOGLE_MAPS_API_KEY=<Your Google Maps API Key>
@@ -100,10 +100,10 @@ npm start
 
 ### Backend Setup
 
-1. Navigate to the `backend` directory:
+1. Navigate to the `profile-map-app-backend` directory:
 
 ```bash
-cd 
+cd profile-map-app-backend
 ```
 
 2. Install dependencies:
@@ -113,7 +113,7 @@ npm install
 ```
 
 3. Configure environment variables:
-    Create a `.env` file in the `backend` directory
+    - Create a `.env` file in the `backend` directory
 
 ```bash
 PORT=5000
@@ -128,17 +128,17 @@ npm start
 
 ## Usage
 
-1. Launch the Application:
+1. **Launch the Application:**
 
-- Access the frontend at http://localhost:3000.
-- Ensure the backend server is running at http://localhost:5000.
+- Access the frontend at `http://localhost:3000`.
+- Ensure the backend server is running at `http://localhost:5000`.
 
-2. Explore Profiles:
+2. **Explore Profiles:**
 
 - View a list of user profiles with photographs.
 - Click the "Summary" button to view their locations on a Google Map.
 
-3. Admin Panel:
+3. **Admin Panel:**
 
 - Manage profiles (create, update, delete).
 - Accessible from the admin interface.
