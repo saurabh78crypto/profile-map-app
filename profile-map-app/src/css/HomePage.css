@@ -1,0 +1,28 @@
+.admin-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.admin-button-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 1.5rem;
+}
+
+.search-bar {
+    margin-bottom: 1.5rem;
+}
+
+.no-results {
+    text-align: center;
+    color: #888;
+}
+
+.profile-row {
+    margin-top: 1.5rem;
+}
+
+
+    
